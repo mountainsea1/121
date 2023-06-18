@@ -16,7 +16,7 @@ jobs:
   
     steps:
       - name: Clone repository
-        uses: whn54331722@gmail.com
+        uses: actions/checkout@v3
 
       - name: Auto green
         run: |
